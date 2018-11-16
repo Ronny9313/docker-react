@@ -1,5 +1,8 @@
 sudo: required
 
+travis encrypt DOCKER_USER=ronny9313 --add
+travis encrypt DOCKER_PASS=Smyths@123 --add
+
 services:
   - docker
 
