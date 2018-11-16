@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn Vue
+            Learn angular 7
           </a>
         </header>
       </div>
