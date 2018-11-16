@@ -4,6 +4,7 @@ services:
   - docker
 
 before-install:
+  - docker login -u 'ronny9313' -p 'Smyths@123' 
   - docker build -t ronny9313/docker-react -f Dockerfile.dev .
 
 script:
